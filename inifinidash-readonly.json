@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ListAndDescribe",
+            "Effect": "Allow",
+            "Action": [
+                "infinidash:List*",
+                "infinidash:Describe*"
+            ],
+            "Resource": "arn:aws:infinidash:*:*:*"
+        }
+    ]
+}
